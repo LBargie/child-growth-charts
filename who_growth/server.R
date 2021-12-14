@@ -6,14 +6,14 @@ source("Growth chart functions.R")
 
 # For plotting growth charts
 files1 <-
-    c("Boys wt 1yr.csv", 
-      "Boys lh.csv", 
-      "Boys hc.csv", 
-      "Girls wt 1yr.csv", 
-      "Girls lh.csv", 
-      "Girls hc.csv", 
-      "Boys wt 1yr plus.csv", 
-      "Girls wt 1yr plus.csv")
+    c("Boys_wt_1yr.csv", 
+      "Boys_lh.csv", 
+      "Boys_hc.csv", 
+      "Girls_wt_1yr.csv", 
+      "Girls_lh.csv", 
+      "Girls_hc.csv", 
+      "Boys_wt_1yr_plus.csv", 
+      "Girls_wt_1yr_plus.csv")
 
 df1 <- map(files1, read_csv)
 
