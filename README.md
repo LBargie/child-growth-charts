@@ -1,4 +1,4 @@
-# child_growth_charts
+# Child growth charts
 This is a web app built in R and Shiny for determining the percentiles of child growth measurements - weight, length and head circumference.
 
 The .csv files found in the "Files" folder were obtained from the World Health Organization (WHO) website:
